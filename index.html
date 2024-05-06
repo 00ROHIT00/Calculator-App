@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>CALCULATOR</h1>
+        <div class="app">
+            <input type="text" class="answerBox" readonly>
+            <button class="backspace" id="calcBtn" onclick="clickEvent(this.value)">Backspace</button>
+            <button class="clear" id="calcBtn" onclick="clickEvent(this.value)">C</button>
+            <button class="clearE" id="calcBtn" onclick="clickEvent(this.value)">CE</button>
+            <button class="MRbtn" id="calcBtn" onclick="clickEvent(this.value)">MR</button>
+
+            <button class="7" id="calcBtn" onclick="clickEvent(this.value)">7</button>
+            <button class="8" id="calcBtn" onclick="clickEvent(this.value)">8</button>
+            <button class="9" id="calcBtn" onclick="clickEvent(this.value)">9</button>
+            <button class="divide" id="calcBtn" onclick="clickEvent(this.value)">/</button>
+
+            <button class="4" id="calcBtn">4</button>
+            <button class="5" id="calcBtn">5</button>
+            <button class="6" id="calcBtn">6</button>
+            <button class="multiply" id="calcBtn">*</button>
+
+            <button class="1" id="calcBtn">1</button>
+            <button class="2" id="calcBtn">2</button>
+            <button class="3" id="calcBtn">3</button>
+            <button class="minus" id="calcBtn">-</button>
+
+            <button class="zero" id="calcBtn">0</button>
+            <button class="twoZero" id="calcBtn">00</button>
+            <button class="add" id="calcBtn">+</button>
+            <button class="equal" id="calcBtn">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
